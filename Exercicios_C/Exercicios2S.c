@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdbool.h>
 
+// Funções da lista 3
 int fatorial(int n) {
     if (n <= 1)
         return 1;
@@ -15,6 +16,10 @@ int potencia(int n, int p) {
         return 1;
     else
         return n * potencia(n, p - 1);
+}
+
+int array(int num[]) {
+    if()
 }
 
 int main(void) {
